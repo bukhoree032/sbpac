@@ -18,25 +18,25 @@
                         <div class="row">
                             <div class="col-sm-6">
                                 <label class="checkbox">
-                                    <input type="checkbox" name="hhold_problems_liv_dimension[]" value="ไม่มีที่อยู่อาศัย" required>
+                                    <input type="checkbox" name="hhold_problems_liv_dimension[]" value="ไม่มีที่อยู่อาศัย" >
                                     <span></span>ไม่มีที่อยู่อาศัย
                                 </label>
                                 <label class="checkbox">
-                                    <input type="checkbox" name="hhold_problems_liv_dimension[]" value="เร่ร่อน" required>
+                                    <input type="checkbox" name="hhold_problems_liv_dimension[]" value="เร่ร่อน" >
                                     <span></span>เร่ร่อน
                                 </label>
                                 <label class="checkbox">
-                                    <input type="checkbox" name="hhold_problems_liv_dimension[]" value="อื่นๆ" required>
+                                    <input type="checkbox" name="hhold_problems_liv_dimension[]" value="อื่นๆ" >
                                     <span></span>อื่นๆ
                                 </label>
                             </div>
                             <div class="col-sm-6">
                                 <label class="checkbox">
-                                    <input type="checkbox" name="hhold_problems_liv_dimension[]" value="ไม่มีกรรมสิทธิ์ในที่อยู่อาศัย" required>
+                                    <input type="checkbox" name="hhold_problems_liv_dimension[]" value="ไม่มีกรรมสิทธิ์ในที่อยู่อาศัย" >
                                     <span></span>ไม่มีกรรมสิทธิ์ในที่อยู่อาศัย
                                 </label>
                                 <label class="checkbox">
-                                    <input type="checkbox" name="hhold_problems_liv_dimension[]" value="สภาพที่อยู่อาศัยไม่เหมาะสมต่อการพักอาศัย" required>
+                                    <input type="checkbox" name="hhold_problems_liv_dimension[]" value="สภาพที่อยู่อาศัยไม่เหมาะสมต่อการพักอาศัย" >
                                     <span></span>สภาพที่อยู่อาศัยไม่เหมาะสมต่อการพักอาศัย
                                 </label>
                             </div>

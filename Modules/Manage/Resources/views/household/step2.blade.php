@@ -15,9 +15,9 @@
                 <div class="form-group">
                     <label>เพศ</label>
                     <select name="member_sex" class="form-control" required>
-                        <option>-- เลือก --</option>
-                        <option>ชาย</option>
-                        <option>หญิง</option>
+                        <option value="">-- เลือก --</option>
+                        <option value="ชาย">ชาย</option>
+                        <option value="หญิง">หญิง</option>
                     </select>
                 </div>
             </div>
@@ -107,36 +107,36 @@
                         <div class="row">
                             <div class="col-sm-4">
                                 <label class="checkbox">
-                                    <input type="checkbox" name="member_benefit_rights_received[]" value="เบี้ยยังชีพผู้สูงอายุ" required>
+                                    <input type="checkbox" name="member_benefit_rights_received[]" value="เบี้ยยังชีพผู้สูงอายุ">
                                     <span></span>เบี้ยยังชีพผู้สูงอายุ
                                 </label>
                                 <label class="checkbox">
-                                    <input type="checkbox" name="member_benefit_rights_received[]" value="เงินซ่อมแซมบ้าน" required>
+                                    <input type="checkbox" name="member_benefit_rights_received[]" value="เงินซ่อมแซมบ้าน">
                                     <span></span>เงินซ่อมแซมบ้าน
                                 </label>
                                 <label class="checkbox">
-                                    <input type="checkbox" name="member_benefit_rights_received[]" value="อื่นๆ" required>
+                                    <input type="checkbox" name="member_benefit_rights_received[]" value="อื่นๆ">
                                     <span></span>อื่นๆ
                                 </label>
                                 <input type="text" name="member_benefit_rights_received_other" class="form-control" placeholder="อื่นๆ">
                             </div>
                             <div class="col-sm-4">
                                 <label class="checkbox">
-                                    <input type="checkbox" name="member_benefit_rights_received[]" value="เบี้ยความพิการ" required>
+                                    <input type="checkbox" name="member_benefit_rights_received[]" value="เบี้ยความพิการ">
                                     <span></span>เบี้ยความพิการ
                                 </label>
                                 <label class="checkbox">
-                                    <input type="checkbox" name="member_benefit_rights_received[]" value="เงินสงเคราะห์" required>
+                                    <input type="checkbox" name="member_benefit_rights_received[]" value="เงินสงเคราะห์">
                                     <span></span>เงินสงเคราะห์
                                 </label>
                             </div>
                             <div class="col-sm-4">
                                 <label class="checkbox">
-                                    <input type="checkbox" name="member_benefit_rights_received[]" value="เงินอุดหนุนเพื่อการเลี้ยงดูเด็กแรกเกิด" required>
+                                    <input type="checkbox" name="member_benefit_rights_received[]" value="เงินอุดหนุนเพื่อการเลี้ยงดูเด็กแรกเกิด">
                                     <span></span>เงินอุดหนุนเพื่อการเลี้ยงดูเด็กแรกเกิด
                                 </label>
                                 <label class="checkbox">
-                                    <input type="checkbox" name="member_benefit_rights_received[]" value="สวัสดิการที่ได้จากการลงทะเบียนโครงการเพื่อสวัสดิการแห่งรัฐ" required>
+                                    <input type="checkbox" name="member_benefit_rights_received[]" value="สวัสดิการที่ได้จากการลงทะเบียนโครงการเพื่อสวัสดิการแห่งรัฐ">
                                     <span></span>สวัสดิการที่ได้จากการลงทะเบียนโครงการเพื่อสวัสดิการแห่งรัฐ
                                 </label>
                             </div>
@@ -211,48 +211,48 @@
                         <div class="row">
                             <div class="col-sm-4">
                                 <label class="checkbox">
-                                    <input type="checkbox" name="pcond_gov_dimensions_serv[]" value="สิทธิการรักษาพยาบาล" required>
+                                    <input type="checkbox" name="pcond_gov_dimensions_serv[]" value="สิทธิการรักษาพยาบาล">
                                     <span></span>สิทธิการรักษาพยาบาล
                                 </label>
                                 <label class="checkbox">
-                                    <input type="checkbox" name="pcond_gov_dimensions_serv[]" value="เบี้ยยังชีพผู้สูงอายุ" required>
+                                    <input type="checkbox" name="pcond_gov_dimensions_serv[]" value="เบี้ยยังชีพผู้สูงอายุ">
                                     <span></span>เบี้ยยังชีพผู้สูงอายุ
                                 </label>
                                 <label class="checkbox">
-                                    <input type="checkbox" name="pcond_gov_dimensions_serv[]" value="เงินซ่อมแซมบ้าน" required>
+                                    <input type="checkbox" name="pcond_gov_dimensions_serv[]" value="เงินซ่อมแซมบ้าน">
                                     <span></span>เงินซ่อมแซมบ้าน
                                 </label>
                                 <label class="checkbox">
-                                    <input type="checkbox" name="pcond_gov_dimensions_serv[]" value="อื่นๆ" required>
+                                    <input type="checkbox" name="pcond_gov_dimensions_serv[]" value="อื่นๆ">
                                     <span></span>อื่นๆ
                                 </label>
                                 <input type="text" name="pcond_gov_dimensions_serv_other" class="form-control" placeholder="อื่นๆ">
                             </div>
                             <div class="col-sm-4">
                                 <label class="checkbox">
-                                    <input type="checkbox" name="pcond_gov_dimensions_serv[]" value="บัตรประจำตัวประชาชน" required>
+                                    <input type="checkbox" name="pcond_gov_dimensions_serv[]" value="บัตรประจำตัวประชาชน">
                                     <span></span>บัตรประจำตัวประชาชน
                                 </label>
                                 <label class="checkbox">
-                                    <input type="checkbox" name="pcond_gov_dimensions_serv[]" value="เบี้ยความพิการ" required>
+                                    <input type="checkbox" name="pcond_gov_dimensions_serv[]" value="เบี้ยความพิการ">
                                     <span></span>เบี้ยความพิการ
                                 </label>
                                 <label class="checkbox">
-                                    <input type="checkbox" name="pcond_gov_dimensions_serv[]" value="เงินสงเคราะห์" required>
+                                    <input type="checkbox" name="pcond_gov_dimensions_serv[]" value="เงินสงเคราะห์">
                                     <span></span>เงินสงเคราะห์
                                 </label>
                             </div>
                             <div class="col-sm-4">
                                 <label class="checkbox">
-                                    <input type="checkbox" name="pcond_gov_dimensions_serv[]" value="บัตรประจำตัวผู้พิการ" required>
+                                    <input type="checkbox" name="pcond_gov_dimensions_serv[]" value="บัตรประจำตัวผู้พิการ">
                                     <span></span>บัตรประจำตัวผู้พิการ
                                 </label>
                                 <label class="checkbox">
-                                    <input type="checkbox" name="pcond_gov_dimensions_serv[]" value="เงินอุดหนุนเพื่อการเลี้ยงดูเด็กแรกเกิด" required>
+                                    <input type="checkbox" name="pcond_gov_dimensions_serv[]" value="เงินอุดหนุนเพื่อการเลี้ยงดูเด็กแรกเกิด">
                                     <span></span>เงินอุดหนุนเพื่อการเลี้ยงดูเด็กแรกเกิด
                                 </label>
                                 <label class="checkbox">
-                                    <input type="checkbox" name="pcond_gov_dimensions_serv[]" value="สวัสดิการที่ได้จากการลงทะเบียนโครงการเพื่อสวัสดิการแห่งรัฐ" required>
+                                    <input type="checkbox" name="pcond_gov_dimensions_serv[]" value="สวัสดิการที่ได้จากการลงทะเบียนโครงการเพื่อสวัสดิการแห่งรัฐ">
                                     <span></span>สวัสดิการที่ได้จากการลงทะเบียนโครงการเพื่อสวัสดิการแห่งรัฐ
                                 </label>
                             </div>

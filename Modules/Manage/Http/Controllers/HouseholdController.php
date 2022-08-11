@@ -62,7 +62,7 @@ class HouseholdController extends UploadeFileController
 
     public function PageDetailFlower($id)
     {
-        $page_title = 'รายละเอียดข้อมูลดอกไม้';
+        $page_title = 'รายละเอียดข้อมูลครัวเรือน';
         $page_description = '';
 
         
@@ -75,18 +75,28 @@ class HouseholdController extends UploadeFileController
         return view('manage::flower.detail_flower', compact('page_title', 'page_description'),$data);
     }
     
-    public function PageEditFlower($id)
+    public function edit($id)
     {
-        $page_title = 'แก้ไขข้อมูลดอกไม้';
+        $page_title = 'แก้ไขข้อมูลครัวเรือน';
         $page_description = '';
 
-        $data['result'] = $this->Repository->ShowId($id,'flowers');
+        $data['result'] = $this->Repository->ShowId($id,'households');
 
-        if(isset($data['result']->file_multiple)){
-            $data['result']->file_multiple = unserialize($data['result']->file_multiple);
+        $data['districts'] = \DB::table('districts')->get();
+        $data['provinces'] = \DB::table('provinces')->get();
+        $data['amphures'] = \DB::table('amphures')->get();
+        
+        if(isset($data['result']->member_benefit_rights_received)){
+            $data['result']->member_benefit_rights_received = unserialize($data['result']->member_benefit_rights_received);
+        }
+        if(isset($data['result']->pcond_gov_dimensions_serv)){
+            $data['result']->pcond_gov_dimensions_serv = unserialize($data['result']->pcond_gov_dimensions_serv);
+        }
+        if(isset($data['result']->hhold_problems_liv_dimension)){
+            $data['result']->hhold_problems_liv_dimension = unserialize($data['result']->hhold_problems_liv_dimension);
         }
 
-        return view('manage::flower.edit_flower', compact('page_title', 'page_description'),$data);
+        return view('manage::household.edit_household', compact('page_title', 'page_description'),$data);
     }
     
     public function UpdateFlower(Request $request, $id)
@@ -134,16 +144,6 @@ class HouseholdController extends UploadeFileController
     public function show($id)
     {
         return view('manage::show');
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     * @param int $id
-     * @return Renderable
-     */
-    public function edit($id)
-    {
-        return view('manage::edit');
     }
 
     /**

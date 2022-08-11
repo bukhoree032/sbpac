@@ -46,12 +46,12 @@
                                 <td>{{ $value->updated_at }}</td>
                                 {{-- <td>
                                     <a class="fas fa-eye pointer" href="{{ route('manage.page.detail_store',$value->id) }}"></a>
-                                    <a class="fas fa-edit pointer" href="{{ route('manage.page.edit_store',$value->id) }}" style="margin-left: 15px" ></a>
+                                    <a class="fas fa-edit pointer" href="{{ route('manage.edit.household',$value->id) }}" style="margin-left: 15px" ></a>
                                     <a onclick="return confirm('ท่านต้องการลบข้อมูลใช่หรือไม่ ?')" class="far fa-trash-alt pointer" href="{{ route('manage.delet.store',$value->id) }}" style="margin-left: 15px"></a>
                                 </td> --}}
                                 <td>
                                     <a class="fas fa-eye pointer" href=""></a>
-                                    <a class="fas fa-edit pointer" href="" style="margin-left: 15px" ></a>
+                                    <a class="fas fa-edit pointer" href="{{ route('manage.edit.household',$value->id) }}" style="margin-left: 15px" ></a>
                                     <a onclick="return confirm('ท่านต้องการลบข้อมูลใช่หรือไม่ ?')" class="far fa-trash-alt pointer" href="" style="margin-left: 15px"></a>
                                 </td>
                             </tr>    
